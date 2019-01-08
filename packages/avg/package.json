@@ -1,0 +1,22 @@
+{
+  "name": "avg",
+  "version": "0.0.1",
+  "description": "The package template for getting started.",
+  "author": "Cocos Creator",
+  "main": "main.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/avg/open": {
+      "message": "avg:open"
+    },
+    "i18n:MAIN_MENU.package.title/avg/hello": {
+      "message": "avg:say-hello"
+    }
+  },
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "avg",
+    "width": 400,
+    "height": 300
+  }
+}
